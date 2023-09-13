@@ -12,7 +12,7 @@ const ImageCarousel = ({ images, cards, options }:
         ...options}}>
         {images && images.map((image) => {
           return <SplideSlide key={image}>
-            <Image src={image} alt="image" width={200} height={150} className='w-96 h-80 object-contain bg-[#1C1C1C] px-24 py-6 rounded-2xl' />
+            <Image src={image} alt="image" width={200} height={150} className='w-72 h-64 object-contain bg-[#1C1C1C] px-20 py-6 rounded-2xl' />
           </SplideSlide>
         })}
 

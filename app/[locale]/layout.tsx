@@ -18,7 +18,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang={locale} dir={locale === "en" ? "ltr" : "rtl"}>
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} w-screen overflow-x-hidden`}>{children}</body>
     </html>
   );
 }

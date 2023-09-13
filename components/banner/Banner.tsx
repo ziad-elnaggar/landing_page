@@ -6,7 +6,7 @@ import intro_img from '../../public/intro.svg'
 function Banner({ banner }: { banner: Record<string, any> }) {
   return <div className="h-[111rem] bg-black relative">
     <Image src={banner_img} alt="banner" className="w-screen" />
-    <div className="flex items-center justify-center w-full absolute top-32 gap-24">
+    <div className="flex items-center justify-center w-full absolute top-32 gap-24 px-4">
       <div className="h-fit">
         <p className="text-5xl italic w-[31.5rem] leading-[4rem]">{banner.title}</p>
         <p className="text-xl mt-[1.8125rem] ml-4 text-[#BEBEBE]">{banner.subtitle}</p>

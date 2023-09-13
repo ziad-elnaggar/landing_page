@@ -24,7 +24,7 @@ export default async function Home({
   const { latestNews }: any = await getDictionary(locale);
 
   return (
-    <div className="">
+    <div>
       <NavBar navBar={navBar} />
       <Banner banner={banner} />
       <ServicesSolution ServiceSolution={ServiceSolution}/>

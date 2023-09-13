@@ -26,7 +26,7 @@ const InsightsToAction = ({ insightsToAction, securityExperts }:
         </div>
       </div>;
   return <div className="bg-[#F8F8F8]">
-    <div className="w-[98rem] m-auto">
+    <div className="w-4/5 m-auto">
       <div className="flex flex-col items-center justify-center pt-[42.56rem]">
         <BeforeBorder />
         <p className="text-[3.25rem] italic text-[#152F4B] mt-6 mb-[30rem]">{insightsToAction.title}</p>
