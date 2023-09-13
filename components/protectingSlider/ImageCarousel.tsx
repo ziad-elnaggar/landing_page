@@ -1,5 +1,5 @@
 import React from 'react'
-// @ts-ignore
+// @ts-ignore:next-line
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Image from 'next/image';
