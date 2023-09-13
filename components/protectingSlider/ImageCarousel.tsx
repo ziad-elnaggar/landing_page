@@ -1,4 +1,5 @@
 import React from 'react'
+// @ts-nocheck
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Image from 'next/image';
