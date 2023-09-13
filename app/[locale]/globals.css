@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  /* background-color: black; */
+  color: white;
+  font-size: 16px;
+  position: relative;
+}
+
+#splide02 { padding-inline: 5rem; }
+.splide__arrow { color: #842EB3; filter: invert(16%) sepia(68%) saturate(3808%) hue-rotate(272deg) brightness(98%) contrast(85%); }
+.splide__pagination { bottom: -5rem; }
+.splide__pagination__page { width: 50px; border-radius: 5px; height: 5px; background: #C6C6C659; }
+.splide__pagination__page.is-active { background: #0C1F34 !important; transform: scale(1); }

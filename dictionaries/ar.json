@@ -1,0 +1,120 @@
+{
+    "navBar": {
+        "links": [
+            "Trustline",
+            "المنتجات",
+            "اتصل بنا"
+        ],
+        "buttons": [
+            "تسجيل الدخول",
+            "تحدث معنا!"
+        ]
+    },
+    "banner": {
+        "title": "Continous security to your expanding digital assets",
+        "subtitle": "Your first place to detect, manage and fix vulnerabilities",
+        "button": "Request a Demo"
+    },
+    "ServiceSolution": {
+        "titles": {
+            "title": "Services & Solution",
+            "subtitle": "Experience the magic with testing that never quits"
+        },
+        "cards": [
+            {
+                "icon":"icon1",
+                "iconTitle": "BugBounty",
+                "body": "Hunt down vulnerabilities with elite security experts.Reward only actionable plan"
+            },
+            {
+                "icon":"icon2",
+
+                "iconTitle": " PenTest",
+                "body": "Achieve regulatory compliance across web and mobile applications, APIs, and external network infrastructure."
+            },
+            {
+                "icon":"icon3",
+
+                "iconTitle": "VDP",
+                "body": "Receive and track incoming vulnerability disclosures from wordwide security experts"
+            }
+        ]
+    },
+    "insightsToAction": {
+        "title": "Go from insights to action",
+        "content": [
+            {
+                "cardTitle": "Talent you can trust",
+                "cardSubtitle": " Tap into a unique pool of security experts with diverse skills to cover all scenarios"
+            },
+            {
+                "cardContent": "High flexibility in managing account balance invest in securit the way suits you"
+            },
+            {
+                "cardContent": "Be a step ahead of cyber attack and know vulnerability trending nowadays "
+            },
+            {
+                "cardTitle": "Triage you can count on",
+                "cardSubtitle": "Trustline triage team will validate vurlnabilities , remove duplicate and prioritize risk by severity "
+            }
+        ]
+    },
+    "securityExperts": {
+        "community": {
+            "title": "For Security Experts: Get to know the cyber security community.",
+            "contentList": [
+                "Compete and collaborate with top security experts",
+                "Challenge yourself and earn rewards, while making the internet a safer place",
+                "improve your skills and  shine in the security industry "
+            ]
+        },
+        "cardContent": {
+            "title": "Nasser Albarrak",
+            "content": "Trustline triage team will validate vurlnabilities , remove duplicate and prioritize risk by severity Trustline triage team will validate vurlnabilities , remove duplicate and prioritize risk by severity "
+        }
+    },
+    "trustlinePlatform": [
+        {
+            "title": "Account creation",
+            "content": "we will be with you from the fist step and help you to set up and manage your account in the best way"
+        },
+        {
+            "title": "Wallet charging",
+            "content": "Trustline provide high flexibilty in managing your account balance you can recharge whenever you need to"
+        },
+        {
+            "title": "Program lounching",
+            "content": "we will be your security partner adn advise you with the best solution that fit you needs"
+        },
+        {
+            "title": "Triage & validation",
+            "content": "we review reports before you recive to make sure it is following our standards"
+        },
+        {
+            "title": "Remidation & Re-testing ",
+            "content": "we priorotise you risks and make sure it is already solved "
+        }
+    ],
+    "protectingTop": "Protecting top innovators",
+    "latestNews": [
+        "Latest News",
+        {
+            "image": "news1",
+            "title": "Don’t get blindsided by unknown attack vectors",
+            "content": "The Bugcrowd Platform includes a massive security knowledge graph containing millions of data points about vulnerabilities, assets, environments, and skill sets developed over a decade of experience. ",
+            "link": "Read More"
+        },
+        {
+            "image": "news2",
+            "title": "Don’t get blindsided by unknown attack vectors",
+            "content": "The Bugcrowd Platform includes a massive security knowledge graph containing millions of data points about vulnerabilities, assets, environments, and skill sets developed over a decade of experience. ",
+            "link": "Read More"
+        },
+        {
+            "image": "news3",
+            "title": "Don’t get blindsided by unknown attack vectors",
+            "content": "The Bugcrowd Platform includes a massive security knowledge graph containing millions of data points about vulnerabilities, assets, environments, and skill sets developed over a decade of experience.",
+            "link": "Read More"
+        }
+    ]
+}
