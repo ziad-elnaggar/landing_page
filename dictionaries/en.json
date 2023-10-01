@@ -11,7 +11,7 @@
         ]
     },
     "banner": {
-        "title": "Continous security to your expanding digital assets",
+        "title": "Continous security to <br/> your expanding <br/> digital assets",
         "subtitle": "Your first place to detect, manage and fix vulnerabilities",
         "button": "Request a Demo"
     },
@@ -22,19 +22,17 @@
         },
         "cards": [
             {
-                "icon":"icon1",
+                "icon": "icon1",
                 "iconTitle": "BugBounty",
                 "body": "Hunt down vulnerabilities with elite security experts.Reward only actionable plan"
             },
             {
-                "icon":"icon2",
-
+                "icon": "icon2",
                 "iconTitle": " PenTest",
                 "body": "Achieve regulatory compliance across web and mobile applications, APIs, and external network infrastructure."
             },
             {
-                "icon":"icon3",
-
+                "icon": "icon3",
                 "iconTitle": "VDP",
                 "body": "Receive and track incoming vulnerability disclosures from wordwide security experts"
             }
@@ -55,13 +53,13 @@
             },
             {
                 "cardTitle": "Triage you can count on",
-                "cardSubtitle": "Trustline triage team will validate vurlnabilities , remove duplicate and prioritize risk by severity "
+                "cardSubtitle": "Trustline triage team will validate vurlnabilities, remove duplicate and prioritize risk by severity "
             }
         ]
     },
     "securityExperts": {
         "community": {
-            "title": "For Security Experts: Get to know the cyber security community.",
+            "title": "For Security Experts: <br/> Get to know the cyber security community.",
             "contentList": [
                 "Compete and collaborate with top security experts",
                 "Challenge yourself and earn rewards, while making the internet a safer place",
@@ -74,6 +72,9 @@
         }
     },
     "trustlinePlatform": [
+        {
+            "title": "Trustline Platform"
+        },
         {
             "title": "Account creation",
             "content": "we will be with you from the fist step and help you to set up and manage your account in the best way"

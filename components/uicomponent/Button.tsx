@@ -1,16 +1,16 @@
-'use client'
-import React, { ButtonHTMLAttributes, FC } from 'react'
+"use client";
+import React, { ButtonHTMLAttributes, FC } from "react";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-    label: string
+  label: string;
 }
 
-const Button: FC<ButtonProps> = ({ className = '', label, ...rest }) => {
-    return (
-        <button className={`rounded-3xl border-2 ${className}`} {...rest}>
-            {label}
-        </button>
-    )
-}
+const Button: FC<ButtonProps> = ({ className = "", label, ...rest }) => {
+  return (
+    <button className={`rounded-3xl border-2 w-[12rem]${className}`} {...rest}>
+      {label}
+    </button>
+  );
+};
 
-export default Button
+export default Button;

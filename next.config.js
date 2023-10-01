@@ -1,7 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  darkMode: ["class", '[data-theme="dark"]'],
-
     async redirects() {
       return [
         {
@@ -9,7 +7,6 @@ const nextConfig = {
             destination: '/en',
             permanent: false,
           },
-          
       ];
     },
   };

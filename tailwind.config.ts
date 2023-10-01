@@ -1,9 +1,11 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-
-  content: ['./pages/**/*.{js,ts,jsx,tsx,mdx}', './components/**/*.{js,ts,jsx,tsx,mdx}', './app/**/*.{js,ts,jsx,tsx,mdx}'],
-
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
   theme: {
     extend: {
       backgroundImage: {
@@ -12,27 +14,24 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    fontFamily: {
+      'abeezee': ['var(--font-abeezee)', 'serif'],
+      'abel': ['var(--font-abel)', 'serif'],
+      'spaceGrotesk': ['var(--font-spaceGrotesk)', 'serif']
+    },
     screens: {
-      '4xl': { min: '1919px' },
-      '3xl': { min: '1880px' },
-      '2xl': { min: '1535px' },
-      '1.5xl': { min: '1360px' },
-      // => @media (min-width: 1535px) { ... }
-      xl: { min: '1280px' },
-      // => @media (min-width: 1279px) { ... }
-      lg: { min: '1023px' },
-      upLg: { min: '1023px', max: '1365px' },
-      upMobileScreen: { min: '831px' },
-      // => @media (min-width: 1023px) { ... }
+      'sm': '415px',
+      'md': '768px',
       mobileScreen: { max: '830px' },
-      md: { min: '768px' },
-      // => @media (min-width: 767px) { ... }
-      sm: { min: '600px' },
-      // => @media (min-width: 639px) { ... }
-      xs: { max: '599px' },
-      xxs: { max: '400px' },
+      upMobileScreen: { min: '831px' },
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1680px',
+    },
   },
-  },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+
+  ]
 }
 export default config

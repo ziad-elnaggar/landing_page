@@ -8,15 +8,82 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-body {
-  /* background-color: black; */
-  color: white;
+body , html {
   font-size: 16px;
-  position: relative;
 }
 
-#splide02 { padding-inline: 5rem; }
-.splide__arrow { color: #842EB3; filter: invert(16%) sepia(68%) saturate(3808%) hue-rotate(272deg) brightness(98%) contrast(85%); }
-.splide__pagination { bottom: -5rem; }
-.splide__pagination__page { width: 50px; border-radius: 5px; height: 5px; background: #C6C6C659; }
-.splide__pagination__page.is-active { background: #0C1F34 !important; transform: scale(1); }
+@media screen and (max-width : 1600px) {
+  body , html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width : 1400px) {
+  body , html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width : 1300px) {
+  body , html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width : 1100px) {
+  body , html {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width : 900px) {
+  body , html {
+    font-size: 9.5px;
+  }
+}
+
+#splide02 {
+  padding-inline: 5em !important;
+}
+
+.splide__arrow {
+  color: #842EB3;
+  filter: invert(16%) sepia(68%) saturate(3808%) hue-rotate(272deg) brightness(98%) contrast(85%);
+  background-color: transparent !important;
+  background:none !important;
+  width: 100px;
+}
+
+.splide__arrow svg {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.splide__pagination {
+  bottom: -5em !important;
+}
+
+.splide__pagination__page {
+  width: 3em !important;
+  border-radius: 5px !important;
+  height: 5px !important;
+  background: #C6C6C6 !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+
+.splide__pagination__page.is-active {
+  background: #0C1F34 !important;
+  transform: scale(1) !important;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+@media screen and (max-width : 800px) {
+  .splide__pagination{
+    bottom: -7em !important;
+  }
+}

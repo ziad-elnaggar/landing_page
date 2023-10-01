@@ -11,9 +11,9 @@
         ]
     },
     "banner": {
-        "title": "Continous security to your expanding digital assets",
-        "subtitle": "Your first place to detect, manage and fix vulnerabilities",
-        "button": "Request a Demo"
+        "title": "أمان مستمر لأصولك الرقمية الآخذة في التوسع",
+        "subtitle": "مكانك الأول لاكتشاف الثغرات الأمنية وإدارتها وإصلاحها",
+        "button": "اطلب عرض تجريبي"
     },
     "ServiceSolution": {
         "titles": {
@@ -55,7 +55,7 @@
             },
             {
                 "cardTitle": "Triage you can count on",
-                "cardSubtitle": "Trustline triage team will validate vurlnabilities , remove duplicate and prioritize risk by severity "
+                "cardSubtitle": "Trustline triage team will validate vurlnabilities, remove duplicate and prioritize risk by severity "
             }
         ]
     },
@@ -74,6 +74,9 @@
         }
     },
     "trustlinePlatform": [
+        {
+            "title": "Trustline Platform"
+        },
         {
             "title": "Account creation",
             "content": "we will be with you from the fist step and help you to set up and manage your account in the best way"

@@ -1,13 +1,14 @@
 import "./globals.css";
-import Banner from "@/components/banner/Banner";
-import TrustLinePlatform from "@/components/trustLinePlatform/TrustlinePlatform";
+
 import Footer from "../sharedComponent/footer/Footer";
 import NavBar from "../sharedComponent/navbar/NavBar";
-import LatestNews from "@/components/latestNews/LatestNews";
 import { Locale } from "@/i18n-config";
 import { getDictionary } from "@/get-dictionary";
+import Banner from "@/components/banner/Banner";
 import InsightsToAction from "@/components/insightsToAction/InsightsToAction";
+import LatestNews from "@/components/latestNews/LatestNews";
 import ServicesSolution from "@/components/servicesSolution/ServiceSolution";
+import TrustLinePlatform from "@/components/trustLinePlatform/TrustlinePlatform";
 import ProtectingSliders from "@/components/protectingSlider/ProtectingSliders";
 
 export default async function Home({
@@ -22,16 +23,19 @@ export default async function Home({
   const { securityExperts }: any = await getDictionary(locale);
   const { protectingTop }: any = await getDictionary(locale);
   const { latestNews }: any = await getDictionary(locale);
+  const { trustlinePlatform }: any = await getDictionary(locale);
 
   return (
     <div>
-      <NavBar navBar={navBar} />
+      <NavBar navBar={navBar} locale={locale} />
       <Banner banner={banner} />
-      <ServicesSolution ServiceSolution={ServiceSolution}/>
-      <InsightsToAction insightsToAction={insightsToAction} securityExperts={securityExperts} />
-      <TrustLinePlatform />
+      <ServicesSolution ServiceSolution={ServiceSolution} />
+      <InsightsToAction
+        securityExperts={{ insightsToAction, securityExperts }}
+      />
+      <TrustLinePlatform trustlinePlatform={trustlinePlatform}/>
       <ProtectingSliders protectingTop={protectingTop} />
-      <LatestNews latestNews={latestNews}/>
+      <LatestNews latestNews={latestNews} />
       <Footer />
     </div>
   );

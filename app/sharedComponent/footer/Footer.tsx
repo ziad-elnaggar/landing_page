@@ -1,33 +1,39 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
   return (
-    <div className="3xl:text-[16px] 2xl:text-[14px] xl:text-[13px]  bg-black w-full flex justify-center py-[3em]">
-      <div className="flex w-[80%] justify-between py-[3.1375em]border-t-2 border-zinc-300 border-opacity-5">
+    <div className="bg-black w-full flex justify-center py-12">
+      <div className="flex w-4/5 mobileScreen:w-[90%] justify-between border-gray-400 border-t-2 py-12">
         <div className="icons flex">
           <Image
-            className="mr-[1em] w-[2.9em]"
+            className="mx-4 w-11"
             width={42}
             height={31}
             alt="footer logo"
             src="/twitter.svg"
           />
           <Image
-            className="w-[2.9em]"
+            className="w-10"
             width={35}
             height={35}
             alt="footer logo"
             src="/linkedIn.svg"
           />
         </div>
-        <Image
-          className="w-[13em]"
-          width={208}
-          height={84}
-          alt="footer logo"
-          src="/footerLogo.svg"
-        />
+        <Link
+          href={"https://www.trustline.sa/"}
+          target="_blank"
+        >
+          <Image
+            className="w-40"
+            width={208}
+            height={84}
+            alt="footer logo"
+            src="/footerLogo.svg"
+          />
+        </Link>
       </div>
     </div>
   );
